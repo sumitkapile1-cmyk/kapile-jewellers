@@ -1,0 +1,78 @@
+.track-container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.track-container h1{
+text-align:center;
+color:#D4AF37;
+margin-bottom:40px;
+}
+
+.track-card{
+background:#fff;
+padding:40px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.track-card h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.timeline{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.step{
+display:flex;
+flex-direction:column;
+align-items:center;
+width:120px;
+}
+
+.circle{
+width:60px;
+height:60px;
+border-radius:50%;
+background:#ddd;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:24px;
+}
+
+.completed .circle{
+background:#28a745;
+color:white;
+}
+
+.active .circle{
+background:#D4AF37;
+}
+
+.line{
+flex:1;
+height:4px;
+background:#ddd;
+margin:0 10px;
+}
+
+@media(max-width:768px){
+
+.timeline{
+flex-direction:column;
+gap:20px;
+}
+
+.line{
+width:4px;
+height:40px;
+}
+
+}

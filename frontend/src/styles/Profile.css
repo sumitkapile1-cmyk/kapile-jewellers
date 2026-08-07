@@ -1,0 +1,109 @@
+.profile-page{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.profile-card{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    overflow:hidden;
+}
+
+.profile-header{
+    background:#000;
+    padding:25px;
+    text-align:center;
+    color:#fff;
+}
+
+/* Smaller Profile Image */
+.profile-image{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:3px solid #D4AF37;
+    object-fit:cover;
+    margin-bottom:12px;
+}
+
+.profile-header h2{
+    margin:8px 0;
+    color:#D4AF37;
+    font-size:26px;
+}
+
+.profile-header p{
+    margin:0;
+    font-size:15px;
+    color:#ddd;
+}
+
+.profile-menu{
+    display:flex;
+    flex-direction:column;
+}
+
+.profile-item{
+    text-decoration:none;
+    color:#222;
+    padding:18px 25px;
+    border-bottom:1px solid #eee;
+    transition:.3s;
+    font-size:17px;
+}
+
+.profile-item:hover{
+    background:#D4AF37;
+    color:#000;
+    padding-left:35px;
+}
+
+.logout-btn{
+    border:none;
+    padding:18px 25px;
+    background:#fff;
+    color:red;
+    font-size:17px;
+    cursor:pointer;
+    text-align:left;
+    transition:.3s;
+}
+
+.logout-btn:hover{
+    background:red;
+    color:#fff;
+}
+
+@media (max-width:768px){
+
+    .profile-page{
+        padding:25px 15px;
+    }
+
+    .profile-card{
+        margin:10px;
+    }
+
+    .profile-header{
+        padding:20px;
+    }
+
+    .profile-image{
+        width:75;
+        height:150px;
+    }
+
+    .profile-header h2{
+        font-size:22px;
+    }
+
+    .profile-item,
+    .logout-btn{
+        font-size:16px;
+        padding:16px 20px;
+    }
+}
