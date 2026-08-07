@@ -9,7 +9,7 @@ import {
   FaStar,
 } from "react-icons/fa";
 import { BsThreeDotsVertical } from "react-icons/bs";
-import "../styles/Products.css";
+import "../styles/products.css";
 
 function Products() {
   const [searchParams] = useSearchParams();

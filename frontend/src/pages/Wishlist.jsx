@@ -1,4 +1,4 @@
-import "../styles/Wishlist.css";
+import "../styles/wishlist.css";
 import { Link } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
 
